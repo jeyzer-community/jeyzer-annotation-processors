@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<!-- Configuration of the Ant build system to generate a Jar file --> 
+<project name="Jeyzer-annotation-processors" default="CreateJar">
+  <target name="CreateJar" description="Create Jar file">
+        <jar jarfile="target/jeyzer-annotation-processors.jar" basedir="target/classes" />
+  </target>
+</project>
