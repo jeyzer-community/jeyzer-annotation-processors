@@ -1,10 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     
 	<modelVersion>4.0.0</modelVersion>	
 	<groupId>org.jeyzer</groupId>
 	<artifactId>jeyzer-annotation-processors</artifactId>
 	<packaging>jar</packaging>
-	<version>2.1-SNAPSHOT</version>
+	<version>2.0-SNAPSHOT</version>
 	<name>Jeyzer Annotation Processors</name>
 	<url>https://github.com/jeyzer-community/jeyzer-annotation-processors</url>
 	<description>The Jeyzer annotation processors. Documentation available at https://jeyzer.org/docs/shared-profile/annotations/</description>
@@ -43,7 +44,7 @@
 							<addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
 						</manifest>
 						<manifestEntries>
-                        	<Built-By />
+                        	<Built-By></Built-By>
                     	</manifestEntries>
 					</archive>
 				</configuration>
