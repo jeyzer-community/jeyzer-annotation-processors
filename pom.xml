@@ -4,7 +4,7 @@
 	<groupId>org.jeyzer</groupId>
 	<artifactId>jeyzer-annotation-processors</artifactId>
 	<packaging>jar</packaging>
-	<version>3.0-SNAPSHOT</version>
+	<version>3.0</version>
 	<name>Jeyzer Annotation Processors</name>
 	<url>https://github.com/jeyzer-community/jeyzer-annotation-processors</url>
 	<description>The Jeyzer annotation processors. Documentation available at https://jeyzer.org/docs/shared-profile/annotations/</description>
@@ -180,7 +180,7 @@
 		<url>https://github.com/jeyzer-community/jeyzer-annotation-processors</url>
 		<connection>scm:git:ssh://git@github.com/jeyzer-community/jeyzer-annotation-processors.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/jeyzer-community/jeyzer-annotation-processors.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>jeyzer-annotation-processors-3.0</tag>
 	</scm>
 	
 	<distributionManagement>
