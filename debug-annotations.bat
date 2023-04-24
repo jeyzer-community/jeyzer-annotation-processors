@@ -1,9 +1,9 @@
 @echo off
 
-set ANNOTATION_PROCESSORS_DIR=C:\Dev\src\jeyzer\community\jeyzer-annotation-processors
-set ANNOTATIONS_DIR=C:\Dev\src\jeyzer\community\jeyzer-annotations
-set ANNOTATIONS_VERSION=2.0-SNAPSHOT
-set DEMO_DIR=C:\Dev\src\jeyzer\community\jeyzer-demo
+set ANNOTATION_PROCESSORS_DIR=C:\Dev\src\jeyzer\jeyzer-annotation-processors
+set ANNOTATIONS_DIR=C:\Dev\src\jeyzer\jeyzer-annotations
+set ANNOTATIONS_VERSION=3.0
+set DEMO_DIR=C:\Dev\src\jeyzer\jeyzer-demo
 
 rem reset MAVEN_OPTS
 set MAVEN_OPTS=

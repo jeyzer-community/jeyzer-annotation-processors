@@ -4,7 +4,7 @@
 	<groupId>org.jeyzer</groupId>
 	<artifactId>jeyzer-annotation-processors</artifactId>
 	<packaging>jar</packaging>
-	<version>2.1-SNAPSHOT</version>
+	<version>3.0-SNAPSHOT</version>
 	<name>Jeyzer Annotation Processors</name>
 	<url>https://github.com/jeyzer-community/jeyzer-annotation-processors</url>
 	<description>The Jeyzer annotation processors. Documentation available at https://jeyzer.org/docs/shared-profile/annotations/</description>
@@ -13,10 +13,14 @@
 		<dependency>
 			<groupId>org.jeyzer</groupId>
 			<artifactId>jeyzer-annotations</artifactId>
-			<version>2.0</version>
+			<version>3.0</version>
 			<scope>compile</scope>
 		</dependency> 
 	</dependencies>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
   
 	<build>
 		<plugins>
@@ -68,7 +72,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
-				<version>1.5</version>
+				<version>3.0.1</version>
 				<executions>
 					<execution>
 						<id>sign-artifacts</id>
@@ -167,7 +171,7 @@
 	</developers>
 
 	<organization>
-		<name>Jeyzer SAS</name>
+		<name>Jeyzer</name>
 		<url>https://jeyzer.org</url>
 	</organization>
 	<inceptionYear>2020</inceptionYear>
